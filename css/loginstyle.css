@@ -1,0 +1,245 @@
+* {
+    background-color: #fff;
+    color: #000;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+    .main-btn {
+    color: #fff;
+    background-color: #222;
+    border-radius: 5px;
+    height: 40px;
+    width:  170px;
+    border: 0px;
+    transition: background-color 0.5s ease;
+}
+
+.main-btn:hover {
+    color: #fff;
+    background-color: #191729;
+    border-radius: 5px;
+    height: 40px;
+    width:  170px;
+    border: 0px;
+    transition: background-color 0.5s ease;
+}
+
+.admin-send-button {
+    color: #fff;
+    background-color: #222;
+    border-radius: 5px;
+    height: 40px;
+    width:  170px;
+    border: 0px;
+    transition: background-color 0.5s ease;
+}
+
+.admin-send-button:hover {
+    color: #fff;
+    background-color: #555;
+    border-radius: 5px;
+    height: 40px;
+    width:  170px;
+    border: 0px;
+    transition: background-color 0.5s ease;
+}
+
+.bojo-frame {
+    display: block;
+    width: 300px;
+    height: 7px;
+    background-color: #fff;
+}
+
+.center p {
+    transition: opacity 1s ease;
+}
+
+    .admin-send-button:hover {
+    background-color: #555;
+}
+
+main {
+    /* 본문 스타일 */
+    flex-grow: 1; /* 남은 공간을 채우도록 설정 */
+}
+
+.footer-div {
+    background-color: #222;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+
+footer {
+    background-color: #555;
+  /* .bottom-center-text {*/
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  /* } */
+}
+
+
+.footer-div img {
+    margin-right: 10px; /* 이미지와 텍스트 사이의 간격 설정 */
+}
+
+
+@media (min-width: 768px) {
+    .center {
+      font-size: 20px;
+    }
+
+    .footer-div p {
+        font-size: 20px;
+      }
+  }
+
+
+  @media (max-width: 682px) {
+        .bojo-frame {
+            display: block;
+            width: auto;
+            height: 7px;
+            /* background-color: aqua; */
+            background-color: #fff;
+        }
+    
+  }
+
+  @media (min-width: 1024px) {
+    .center {
+      font-size: 24px;
+    }
+
+    .footer-div p {
+        font-size: 24px;
+      }
+  }
+
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+.callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+.callout-header {
+  padding: 25px 15px;
+  background: #555;
+  font-size: 30px;
+  color: white;
+}
+
+.callout-container {
+  padding: 15px;
+  background-color: #ccc;
+  color: black
+}
+
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: lightgrey;
+}
+
+.netflix-btn {
+  color: #fff;
+  background-color: red;
+  border-radius: 5px;
+  height: 40px;
+  width:  170px;
+  border: 0px;
+  transition: background-color 0.5s ease;
+}
+
+.netflix-btn:hover {
+  color: #fff;
+  background-color: rgb(200, 105, 105);
+  border-radius: 5px;
+  height: 40px;
+  width:  170px;
+  border: 0px;
+  transition: background-color 0.5s ease;
+}
+
+.spotify-btn {
+  color: #fff;
+  background-color: #00cf00;
+  border-radius: 5px;
+  height: 40px;
+  width:  170px;
+  border: 0px;
+  transition: background-color 0.5s ease;
+}
+
+.spotify-btn:hover {
+  color: #fff;
+  background-color: #73ff73;
+  border-radius: 5px;
+  height: 40px;
+  width:  170px;
+  border: 0px;
+  transition: background-color 0.5s ease;
+}
+
+.typeee {
+    border: 1px;
+    border-color: #000;
+    background-color: #fff;
+    height: 36px;
+    width: 200px;
+    color: #000;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #f44336;
+  }
+
+  .strong {
+    background-color: #f44336;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }

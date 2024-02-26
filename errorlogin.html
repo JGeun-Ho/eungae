@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANS STUDIO - LOGIN</title>
+    <link rel="stylesheet" href="/css/loginstyle.css">
+
+</head>
+<body>
+    <div class="alert">
+        <!--span style="background-color: f44336;" class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span--> 
+        비밀번호가 틀렸거나 계정이 틀렸거나 아예없는 계정인것 같습니다.
+      </div>
+    <div class="center">
+        <form action="/login" method="POST">
+            <h2>로그인</h2>
+            <input class="typeee" type="text" name="username" placeholder="Username" required> <div class="bojo-frame"></div>
+            <input class="typeee" type="password" name="password" placeholder="Password" required> <div class="bojo-frame"></div>
+            <button class="main-btn" type="submit">로그인</button>
+        </form>
+    </div>
+</body>
+</html>

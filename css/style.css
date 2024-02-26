@@ -1,0 +1,106 @@
+* {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+.main-section {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+
+.top-right-buttons {
+    position: absolute;
+    top: 25px;
+    right: 23px;
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+}
+
+.top-left-buttons {
+    position: absolute;
+    top: 25px;
+    left: 23px;
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+}
+
+@media (min-width: 1085px) {
+    .top-right-buttons {
+     top: 20px;
+       }
+
+       .top-left-buttons {
+        top: 20px;
+       }
+   }
+
+@media (min-width: 1044px) {
+   .top-right-buttons {
+    top: 25px;
+      }
+
+      .top-left-buttons {
+        top: 25px;
+       }
+  }
+
+@media (min-width: 777px) {
+    .top-right-buttons {
+     top: 29px;
+       }
+
+       .top-left-buttons {
+        top: 29px;
+       }
+   }
+
+@media (min-width: 700px) {
+    .top-right-buttons {
+     top: 29px;
+       }
+
+       .top-left-buttons {
+        top: 29px;
+       }
+   }
+
+@media (min-width: 600px) {
+    .top-right-buttons {
+     top: 31px;
+       }
+
+       .top-left-buttons {
+        top: 31px;
+       }
+   }
+
+@media (min-width: 500px) {
+    .top-right-buttons {
+     top: 31px;
+       }
+
+       .top-left-buttons {
+        top: 31px;
+       }
+   }
+
+@media (min-width: 431px) {
+    .top-right-buttons {
+     top: 22px;
+       }
+
+       .top-left-buttons {
+        top: 22px;
+       }
+   }
+
+   .bojo-frame {
+    display: block;
+    width: 300px;
+    height: 7px;
+    background-color: #fff;
+}
